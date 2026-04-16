@@ -1,4 +1,4 @@
-# Offline AI-Powered Code Debugger using RAG and Multi-Agent Architecture
+# Offline Multi Language AI-Powered Code Debugger using RAG and Multi-Agent Architecture
 
 Local-first AI debugging platform for Python projects.  
 The stack is designed to run fully on your machine:
