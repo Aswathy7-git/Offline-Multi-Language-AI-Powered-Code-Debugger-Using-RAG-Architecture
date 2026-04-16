@@ -1,0 +1,112 @@
+{
+    "diagnostics": [
+        {
+            "error_code": "E2011",
+            "name": "illegal-state-exception",
+            "message_template": "Illegal state detected in method execution.",
+            "description": "Occurs when a method is invoked at an inappropriate time."
+        },
+        {
+            "error_code": "E2012",
+            "name": "file-not-found",
+            "message_template": "File not found exception.",
+            "description": "Occurs when attempting to access a file that does not exist."
+        },
+        {
+            "error_code": "E2013",
+            "name": "arithmetic-exception",
+            "message_template": "Arithmetic exception detected.",
+            "description": "Occurs when illegal arithmetic operations are performed (e.g., division by zero)."
+        },
+        {
+            "error_code": "E2014",
+            "name": "index-out-of-bounds",
+            "message_template": "Index exceeds collection bounds.",
+            "description": "Occurs when accessing list or collection with invalid index."
+        },
+        {
+            "error_code": "E2015",
+            "name": "illegal-access",
+            "message_template": "Illegal access to class member.",
+            "description": "Occurs when attempting to access private members incorrectly."
+        },
+        {
+            "error_code": "E2016",
+            "name": "null-pointer-exception",
+            "message_template": "Null pointer access.",
+            "description": "Occurs when trying to use an object reference that has not been initialized."
+        },
+        {
+            "error_code": "E2017",
+            "name": "resource-leak",
+            "message_template": "Potential resource leak detected.",
+            "description": "Resource (like a file or scanner) is opened but not closed."
+        },
+        {
+            "error_code": "E2018",
+            "name": "insecure-random",
+            "message_template": "Insecure random number generator.",
+            "description": "Use SecureRandom instead of Random for security-sensitive applications."
+        },
+        {
+            "error_code": "E2019",
+            "name": "empty-catch-block",
+            "message_template": "Empty catch block detected.",
+            "description": "Exceptions are caught but not handled or logged."
+        },
+        {
+            "error_code": "E2020",
+            "name": "dead-code",
+            "message_template": "Unreachable or dead code detected.",
+            "description": "Code that will never be executed."
+        },
+        {
+            "error_code": "E2021",
+            "name": "string-equality-operator",
+            "message_template": "Used == to compare String objects. Use .equals() instead.",
+            "description": "In Java, == compares object references, not string content. Strings must be compared using .equals() or Objects.equals() to check value equality."
+        }
+    ],
+    "errors": {
+        "IllegalStateException": {
+            "explanation": "Illegal state detected in method execution.",
+            "suggestion": "Check the object state before calling this method."
+        },
+        "FileNotFoundException": {
+            "explanation": "File not found exception.",
+            "suggestion": "Verify the file path exists and is accessible."
+        },
+        "ArithmeticException": {
+            "explanation": "Arithmetic exception detected.",
+            "suggestion": "Check for division by zero or overflow conditions."
+        },
+        "ArrayIndexOutOfBoundsException": {
+            "explanation": "Index exceeds collection bounds.",
+            "suggestion": "Verify the index is within [0, size-1]."
+        },
+        "NullPointerException": {
+            "explanation": "Null pointer access.",
+            "suggestion": "Ensure the object is initialized before use (e.g., check for null)."
+        },
+        "ResourceLeak": {
+            "explanation": "Potential resource leak detected.",
+            "suggestion": "Ensure the resource is closed in a finally block or use try-with-resources."
+        },
+        "InsecureRandom": {
+            "explanation": "Insecure random number generator.",
+            "suggestion": "Use java.security.SecureRandom for security-critical tasks."
+        },
+        "EmptyCatchBlock": {
+            "explanation": "Empty catch block detected.",
+            "suggestion": "Add logging or handling logic to the catch block."
+        },
+        "DeadCode": {
+            "explanation": "Unreachable or dead code detected.",
+            "suggestion": "Remove the unreachable code or fix the logic."
+        },
+        "StringEqualityOperator": {
+            "explanation": "Using == to compare String objects compares references, not values.",
+            "suggestion": "Replace == with .equals() for String comparison (e.g., a.equals(b))."
+        }
+    }
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "error_code": "E1001",
+    "name": "division-by-zero",
+    "message_template": "Division by zero detected.",
+    "description": "Occurs when a division operation uses a denominator that evaluates to zero."
+  },
+  {
+    "error_code": "E1002",
+    "name": "null-pointer-dereference",
+    "message_template": "Dereferencing NULL pointer '%s'.",
+    "description": "Occurs when a program attempts to access memory through a NULL pointer."
+  },
+  {
+    "error_code": "E1003",
+    "name": "buffer-overflow",
+    "message_template": "Possible buffer overflow in array '%s'.",
+    "description": "Occurs when writing beyond the bounds of an allocated buffer."
+  },
+  {
+    "error_code": "E1004",
+    "name": "uninitialized-variable",
+    "message_template": "Variable '%s' used before initialization.",
+    "description": "Occurs when a variable is used without being initialized."
+  },
+  {
+    "error_code": "E1005",
+    "name": "memory-leak",
+    "message_template": "Allocated memory for '%s' is not freed.",
+    "description": "Occurs when dynamically allocated memory is not released with free()."
+  },
+  {
+    "error_code": "E1006",
+    "name": "invalid-pointer-arithmetic",
+    "message_template": "Invalid pointer arithmetic detected.",
+    "description": "Occurs when pointer arithmetic leads to invalid memory access."
+  },
+  {
+    "error_code": "E1007",
+    "name": "dangling-pointer",
+    "message_template": "Pointer '%s' references freed memory.",
+    "description": "Occurs when a pointer refers to memory that has already been freed."
+  },
+  {
+    "error_code": "E1008",
+    "name": "array-index-out-of-bounds",
+    "message_template": "Array index out of bounds for '%s'.",
+    "description": "Occurs when an array index exceeds its declared size."
+  },
+  {
+    "error_code": "E1009",
+    "name": "double-free",
+    "message_template": "Memory for '%s' freed multiple times.",
+    "description": "Occurs when free() is called twice on the same memory address."
+  },
+  {
+    "error_code": "E1010",
+    "name": "invalid-free",
+    "message_template": "Invalid free() detected.",
+    "description": "Occurs when free() is used on memory not allocated by malloc/calloc/realloc."
+  },
+  {
+    "error_code": "E1011",
+    "name": "use-after-free",
+    "message_template": "Using memory after it has been freed.",
+    "description": "Occurs when a pointer is used after calling free()."
+  },
+  {
+    "error_code": "E1012",
+    "name": "stack-overflow",
+    "message_template": "Potential stack overflow detected.",
+    "description": "Occurs when recursion or large allocations exceed stack limits."
+  },
+  {
+    "error_code": "E1013",
+    "name": "format-string-vulnerability",
+    "message_template": "Unsafe format string usage.",
+    "description": "Occurs when printf uses user input directly as format string."
+  },
+  {
+    "error_code": "E1014",
+    "name": "invalid-type-cast",
+    "message_template": "Invalid type cast detected.",
+    "description": "Occurs when casting incompatible data types."
+  },
+  {
+    "error_code": "E1015",
+    "name": "function-pointer-mismatch",
+    "message_template": "Function pointer type mismatch.",
+    "description": "Occurs when assigning incompatible function pointers."
+  },
+  {
+    "error_code": "W2001",
+    "name": "unused-variable",
+    "message_template": "Variable '%s' declared but not used.",
+    "description": "Occurs when a variable is declared but never used."
+  },
+  {
+    "error_code": "W2002",
+    "name": "implicit-type-conversion",
+    "message_template": "Implicit type conversion from '%s' to '%s'.",
+    "description": "Occurs when a value is automatically converted to another type."
+  },
+  {
+    "error_code": "W2003",
+    "name": "missing-return",
+    "message_template": "Function '%s' should return a value.",
+    "description": "Occurs when a non-void function does not return a value."
+  },
+  {
+    "error_code": "W2004",
+    "name": "infinite-loop",
+    "message_template": "Possible infinite loop detected.",
+    "description": "Occurs when loop condition never changes."
+  },
+  {
+    "error_code": "W2005",
+    "name": "unused-function",
+    "message_template": "Function '%s' declared but never used.",
+    "description": "Occurs when a function is defined but not called."
+  },
+  {
+    "error_code": "W2006",
+    "name": "unused-parameter",
+    "message_template": "Parameter '%s' is not used.",
+    "description": "Occurs when a function parameter is never used."
+  },
+  {
+    "error_code": "W2007",
+    "name": "comparison-with-assignment",
+    "message_template": "Assignment used instead of comparison.",
+    "description": "Occurs when '=' is used instead of '==' inside conditions."
+  },
+  {
+    "error_code": "W2008",
+    "name": "shadowed-variable",
+    "message_template": "Variable '%s' shadows previous declaration.",
+    "description": "Occurs when a variable hides another variable with same name."
+  },
+  {
+    "error_code": "C3001",
+    "name": "unsafe-function-usage",
+    "message_template": "Unsafe function '%s' used.",
+    "description": "Occurs when unsafe functions like gets(), strcpy() are used."
+  },
+  {
+    "error_code": "C3002",
+    "name": "missing-header",
+    "message_template": "Required header file '%s' not included.",
+    "description": "Occurs when a function is used without including the proper header."
+  },
+  {
+    "error_code": "C3003",
+    "name": "magic-number",
+    "message_template": "Magic number '%d' used.",
+    "description": "Occurs when numeric literals are used instead of constants."
+  },
+  {
+    "error_code": "C3004",
+    "name": "long-function",
+    "message_template": "Function '%s' too long.",
+    "description": "Occurs when a function becomes excessively long."
+  },
+  {
+    "error_code": "C3005",
+    "name": "deep-nesting",
+    "message_template": "Too many nested blocks.",
+    "description": "Occurs when code has excessive nested control structures."
+  },
+  {
+    "error_code": "C3006",
+    "name": "missing-braces",
+    "message_template": "Missing braces in control statement.",
+    "description": "Occurs when if/while/for statements lack braces."
+  },
+  {
+    "error_code": "C3007",
+    "name": "global-variable-usage",
+    "message_template": "Global variable '%s' used.",
+    "description": "Occurs when global variables are used excessively."
+  },
+  {
+    "error_code": "C3008",
+    "name": "multiple-return-statements",
+    "message_template": "Multiple return statements detected.",
+    "description": "Occurs when a function contains many return statements."
+  },
+  {
+    "error_code": "C4001",
+    "name": "undefined-symbol",
+    "message_template": "Undefined symbol '%s' used.",
+    "description": "Usage of a variable or function that has not been declared."
+  }
+]

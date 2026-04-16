@@ -1,0 +1,42 @@
+[
+    {
+        "name": "unused-variable",
+        "description": "Used when a variable is defined but not used.",
+        "error_code": "W0612"
+    },
+    {
+        "name": "ZeroDivisionError",
+        "description": "Logical division by zero detected in static analysis.",
+        "error_code": "E1101"
+    },
+    {
+        "name": "AttributeError",
+        "description": "Object has no attribute with the specified name.",
+        "error_code": "E1101"
+    },
+    {
+        "name": "dangerous-default-value",
+        "description": "Using a mutable default value (like [] or {}) is risky due to late binding.",
+        "error_code": "W0102"
+    },
+    {
+        "name": "unreachable",
+        "description": "The code after a return, raise, break, or continue will never be reached.",
+        "error_code": "W0101"
+    },
+    {
+        "name": "duplicate-key",
+        "description": "A dictionary has more than one entry with the same key.",
+        "error_code": "W0109"
+    },
+    {
+        "name": "exec-used",
+        "description": "Use of the exec function is generally considered dangerous.",
+        "error_code": "W0122"
+    },
+    {
+        "name": "eval-used",
+        "description": "Use of the eval function is dangerous and should be avoided.",
+        "error_code": "W0123"
+    }
+]

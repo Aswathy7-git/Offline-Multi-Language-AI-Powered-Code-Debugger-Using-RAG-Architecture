@@ -1,0 +1,11 @@
+{
+  "source_directories": [
+    "."
+  ],
+  "exclude": [
+    "**/node_modules/**",
+    "**/venv/**",
+    "**/__pycache__/**",
+    "**/.pytest_cache/**"
+  ]
+}
