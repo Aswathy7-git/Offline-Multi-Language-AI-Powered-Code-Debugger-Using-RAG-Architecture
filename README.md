@@ -166,11 +166,9 @@ models/
 |---|---|---|
 | ![Login](screenshots/login.png) | ![Debug](screenshots/debug.png) | ![Anomaly](screenshots/anomaly.png) |
 
-| Corrected Code | Security Check | Metrics |
-|---|---|---|
-| ![Fix](screenshots/fix.png) | ![Security](screenshots/security.png) | ![Metrics](screenshots/metrics.png) |
-
-> Add screenshots to a `/screenshots` folder in the repo.
+| Corrected Code | Metrics |
+|---|---|
+| ![Fix](screenshots/fix.png) | ![Metrics](screenshots/metrics.png) |
 
 ---
 
