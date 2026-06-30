@@ -164,11 +164,11 @@ models/
 
 | Login | Debug Panel | Anomaly Detected |
 |---|---|---|
-| ![Login](screenshots/login.png) | ![Debug](screenshots/debug.png) | ![Anomaly](screenshots/anomaly.png) |
+| ![Login](Screenshots/login.png) | ![Debug](Screenshots/Debug%20panel.png) | ![Anomaly](Screenshots/Anomaly%20Detected.png) |
 
 | Corrected Code | Metrics |
 |---|---|
-| ![Fix](screenshots/fix.png) | ![Metrics](screenshots/metrics.png) |
+| ![Fix](Screenshots/Corrected%20Code.png) | ![Metrics](Screenshots/Metrics.png) |
 
 ---
 
