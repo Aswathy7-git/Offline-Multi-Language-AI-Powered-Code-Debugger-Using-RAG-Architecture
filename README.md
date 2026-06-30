@@ -227,7 +227,7 @@ All 13 test cases passed across unit, integration, and user-level testing:
 
 **Aswathy C**  
 MCA, Federal Institute of Science and Technology (FISAT), Angamaly  
-📧 aswathychandrankutty@gmail.com  
+📧 caswathy11@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/aswathy-c-290a652a7) · [GitHub](https://github.com/Aswathy7-git)
 
 ---
